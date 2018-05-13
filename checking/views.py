@@ -3,6 +3,7 @@ import jijacrypto as j
 from django.shortcuts import render
 import json
 from decimal import *
+from django.views.generic import TemplateView
 # Create your views here.
 
 
@@ -16,6 +17,9 @@ from rest_framework import permissions
 from django.http import HttpResponse
 
 
+
+class WebsiteIndexPage(TemplateView):
+    template_name = "index.html"
 
 @api_view(['GET'])
 @csrf_exempt
