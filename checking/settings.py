@@ -59,7 +59,8 @@ CORS_ORIGIN_WHITELIST = (
     'localhost:8001',
     'localhost:8000',
     '127.0.0.1:3000',
-    'ec2-35-154-114-134.ap-south-1.compute.amazonaws.com'
+    'django-env.gmpsvbxgn9.ap-south-1.elasticbeanstalk.com',
+    'modularkitchencompany.com'
 )
 
 
