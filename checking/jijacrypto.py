@@ -293,12 +293,14 @@ def datatoreturn(row,transaction):
 
 def sendemail(data):
     from django.core.mail import EmailMessage
+    print data
     name = data.get("name")
     email = data.get("email")
     phone = data.get("contact")
     message = data['message']
     email = EmailMessage(name, message, to=['n.bhawsinka@gmail.com'])
     email.send()
+    return "ok"
 
 
 

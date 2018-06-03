@@ -47,8 +47,8 @@ INSTALLED_APPS = [
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'emailidgoeshere'
-EMAIL_HOST_PASSWORD = 'passwordgoeshere'
+EMAIL_HOST_USER = 'adobebeyondsales@gmail.com'
+EMAIL_HOST_PASSWORD = 'palakdidi'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 
@@ -58,7 +58,8 @@ CORS_ORIGIN_WHITELIST = (
     'hostname.example.com',
     'localhost:8001',
     'localhost:8000',
-    '127.0.0.1:3000'
+    '127.0.0.1:3000',
+    'ec2-35-154-114-134.ap-south-1.compute.amazonaws.com'
 )
 
 
